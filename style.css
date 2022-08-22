@@ -1,0 +1,51 @@
+body{
+    font-family: 'Ubuntu-R';
+    src: url(Ubuntu-R.ttf);
+    margin: 10px;
+    background-image: url(trevo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    width: 100vw;
+    height: 80vh;
+}
+.btn{
+    padding: 10px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.btn:hover{
+    background-color: antiquewhite;
+}
+.sort{
+    margin-top: 10px;
+    border: solid 2px black;
+    border-radius: 5px;
+    width: 35px;
+    height: 2em;    
+}
+form{
+    border: solid 2px black;
+    border-radius: 10px;
+    width: 180px;
+    height: 305px;
+    margin: auto;
+    padding: 10px;
+}
+h2{
+    text-align: center;
+    font-size: 1em;
+
+}
+h1{
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+div{
+    text-align: center;
+}
