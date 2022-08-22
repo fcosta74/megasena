@@ -1,14 +1,14 @@
 body{
     font-family: 'Ubuntu-R';
     src: url(Ubuntu-R.ttf);
-    margin: 10px;
+    background-color: black;
     background-image: url(trevo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-repeat: no-repeat;
     display: block;
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
 }
 .btn{
     padding: 10px;
