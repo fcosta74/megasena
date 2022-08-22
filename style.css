@@ -20,13 +20,7 @@ body{
 .btn:hover{
     background-color: antiquewhite;
 }
-.sort{
-    margin-top: 10px;
-    border: solid 2px black;
-    border-radius: 5px;
-    width: 35px;
-    height: 2em;    
-}
+
 form{
     border: solid 2px black;
     border-radius: 10px;

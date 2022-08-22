@@ -1,6 +1,3 @@
-/*let button = document.querySelector("button")
-        button.onclick = sorteiaNumeros
-*/
 function sorteia() {
     return Math.trunc(Math.random() * 100)
 }
