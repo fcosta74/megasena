@@ -21,11 +21,11 @@ function sorteiaNumeros() {
         }
     }
     megaSena.sort((a,b)=>a- b)
-    res.innerHTML = '🍀🍀🍀🍀🍀🍀🍀🍀'
-    res.innerHTML += `<h2>Os números da sorte são: ${megaSena.join(' - ')}.</h2>`
-    res.innerHTML += '🍀🍀🍀🍀🍀🍀🍀🍀'
+    res.innerHTML = '<h2>🍀🍀🍀🍀🍀🍀🍀🍀</h2>'
+    res.innerHTML += `<h2>Os números da sorte são: <br><strong>${megaSena.join(' - ')}</strong>.</h2>`
+    res.innerHTML += '<h2>🍀🍀🍀🍀🍀🍀🍀🍀</h2>'
     res.innerHTML += '<h2>Tenha uma boa sorte!</h2>' 
-    res.innerHTML += '🍀🍀🍀🍀🍀🍀🍀🍀'
+    res.innerHTML += '<h2>🍀🍀🍀🍀🍀🍀🍀🍀</h2>'
 
    
     
