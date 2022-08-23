@@ -13,7 +13,7 @@ body{
 }
 .btn{
     padding: 10px;
-    font-size: 1.5em;
+    font-size: 1em;
     border-radius: 10px;
     cursor: pointer;
     margin-top: 10px;
@@ -21,7 +21,6 @@ body{
 .btn:hover{
     background-color: antiquewhite;
 }
-
 form{
     border: solid 2px black;
     border-radius: 10px;
@@ -33,8 +32,6 @@ form{
 h2{
     text-align: center;
     font-size: 1em;
-
-
 }
 h1{
     font-size: 1.5em;
@@ -44,4 +41,16 @@ h1{
 }
 div{
     text-align: center;
+}
+
+@media (max-width:800px) {
+
+    .banner {
+        width: 100%;
+        height: 100%;
+    }
+    form{
+        width: 160px;
+        height: 312px;
+    }
 }
